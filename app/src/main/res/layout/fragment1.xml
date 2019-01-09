@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="145dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/b23"
+        android:layout_marginTop="219dp"
+        android:text="Regular Mode"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="180dp"
+        android:layout_alignLeft="@+id/b23" />
+
+    <Button
+        android:id="@+id/b23"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:text="Generate Jumbling"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

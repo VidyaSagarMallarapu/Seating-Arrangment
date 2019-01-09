@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="25dp"
+        android:text="Date_Pick"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button11"
+        android:layout_marginEnd="96dp"
+        android:text="Time_Pick"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="96dp" />
+
+
+    <EditText
+        android:id="@+id/edittextce"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:hint="CE"
+        android:inputType="textPersonName"
+
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/edittextme"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/edittextce"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="ME"
+        android:inputType="textPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp" />
+
+    <EditText
+        android:layout_alignParentLeft="true"
+        android:id="@+id/edittextmme"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="MME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edittextche"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edittextece"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="CHE"
+        android:inputType="textPersonName"
+        android:layout_alignRight="@+id/edittextece" />
+
+    <EditText
+        android:id="@+id/edittextcse"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="99dp"
+        android:ems="10"
+        android:hint="CSE"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:textAllCaps="false"
+        android:text="Genetate" />
+
+    <EditText
+        android:id="@+id/edittextece"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edittextme"
+        android:layout_alignTop="@+id/edittextcse"
+        android:ems="10"
+        android:hint="ECE"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/edittextme" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edittextmme"
+        android:layout_alignRight="@+id/edittextmme"
+        android:layout_below="@+id/edittextmme"
+        android:layout_marginTop="67dp"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        android:text="Select File" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignLeft="@+id/edittextme"
+        android:layout_alignStart="@+id/edittextme"
+        android:visibility="invisible"
+        android:textAllCaps="false"
+        android:text="Upload" />
+
+
+</RelativeLayout>
